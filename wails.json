@@ -1,13 +1,13 @@
 {
   "$schema": "https://wails.io/schemas/config.v2.json",
-  "name": "Wmb Table",
-  "outputfilename": "wmb-table",
-  "frontend:install": "npm install",
-  "frontend:build": "npm run build",
-  "frontend:dev:watcher": "npm run dev",
+  "name": "wmb-table",
+  "outputfilename": "Wmb Table",
+  "frontend:install": "pnpm install",
+  "frontend:build": "pnpm run build",
+  "frontend:dev:watcher": "pnpm run dev",
   "frontend:dev:serverUrl": "auto",
   "author": {
     "name": "Paradoxe Ngwasi",
-    "email": "paradoxengwasi@gmail.com"
+    "email": "paradoxngwasi@gmail.com"
   }
 }
